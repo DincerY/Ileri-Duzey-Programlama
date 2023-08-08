@@ -24,8 +24,14 @@ class Server
             Console.WriteLine($"{i + 1}. file uploaded");
         }
     }
-
-    public static bool operator <<(Server server,int fileCount)
+    /// <summary>
+    /// çift parametreli olmasının sebebi operatorun sağına ve soluna değişken almasıdır
+    /// ayrıca oluşturulsuğu classın kendisinide parametreden almak zorundadır
+    /// </summary>
+    /// <param name="server"></param>
+    /// <param name="fileCount"></param>
+    /// <returns></returns>
+    public static bool operator <<(Server server,int fileCount) 
     {
         Download(fileCount);
         return true;
