@@ -9,7 +9,7 @@ if (server << 1)
 
 class Server
 {
-    public static void Download(int fileCount)
+    private static void Download(int fileCount)
     {
         for (int i = 0; i < fileCount; i++)
         {
@@ -17,7 +17,7 @@ class Server
         }
     }
 
-    public static void Upload(int fileCount)
+    private static void Upload(int fileCount)
     {
         for (int i = 0; i < fileCount; i++)
         {
