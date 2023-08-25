@@ -3,6 +3,7 @@ A a2 =(A) new B();  //Implicit. Bu kavram uygulandığında kapalı bir şekilde
 
 B b = (B) new A();  //Explicit
 
+
 class A
 {
     public string AMember { get; set; }
@@ -20,3 +21,4 @@ class B
         return new B();
     }
 }
+

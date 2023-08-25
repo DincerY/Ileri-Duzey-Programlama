@@ -15,7 +15,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplicitAndExplicitOperator
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExceptionHandling", "ExceptionHandling", "{6CC7D8E2-0DBE-4BD3-BFA1-36C2779A65DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exception_handling", "ExceptionHandling\exception_handling\exception_handling.csproj", "{549309DD-2260-4F38-BB30-967683A173AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exception_handling", "ExceptionHandling\exception_handling\exception_handling.csproj", "{549309DD-2260-4F38-BB30-967683A173AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Programatik Nesne Üretimi", "Programatik Nesne Üretimi", "{831DF4CD-8987-47D1-9C97-6DD3C2964051}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Activator_Class", "Programtik Nesne Üretimi\Activator_Class\Activator_Class.csproj", "{2C16B8C8-FE4B-44B8-994F-0D966C0ED5C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicObject_Class", "Programtik Nesne Üretimi\DynamicObject_Class\DynamicObject_Class.csproj", "{AF2AE387-DB3E-4050-BBDD-544BD2BC550E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dynamic_Keywordd", "Programtik Nesne Üretimi\dynamic_Keywordd\dynamic_Keywordd.csproj", "{1EE1BF11-45E8-44D1-815D-3FEBB21728B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +51,18 @@ Global
 		{549309DD-2260-4F38-BB30-967683A173AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{549309DD-2260-4F38-BB30-967683A173AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{549309DD-2260-4F38-BB30-967683A173AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C16B8C8-FE4B-44B8-994F-0D966C0ED5C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C16B8C8-FE4B-44B8-994F-0D966C0ED5C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C16B8C8-FE4B-44B8-994F-0D966C0ED5C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C16B8C8-FE4B-44B8-994F-0D966C0ED5C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF2AE387-DB3E-4050-BBDD-544BD2BC550E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF2AE387-DB3E-4050-BBDD-544BD2BC550E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF2AE387-DB3E-4050-BBDD-544BD2BC550E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF2AE387-DB3E-4050-BBDD-544BD2BC550E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EE1BF11-45E8-44D1-815D-3FEBB21728B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EE1BF11-45E8-44D1-815D-3FEBB21728B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EE1BF11-45E8-44D1-815D-3FEBB21728B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EE1BF11-45E8-44D1-815D-3FEBB21728B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +73,9 @@ Global
 		{528A242D-0409-467F-B2F9-5F4CA3D29975} = {913F03B3-B48B-4758-9B5D-6FA09495A145}
 		{819B08EA-D869-4030-97EA-3C03B1E3B7C8} = {913F03B3-B48B-4758-9B5D-6FA09495A145}
 		{549309DD-2260-4F38-BB30-967683A173AD} = {6CC7D8E2-0DBE-4BD3-BFA1-36C2779A65DC}
+		{2C16B8C8-FE4B-44B8-994F-0D966C0ED5C3} = {831DF4CD-8987-47D1-9C97-6DD3C2964051}
+		{AF2AE387-DB3E-4050-BBDD-544BD2BC550E} = {831DF4CD-8987-47D1-9C97-6DD3C2964051}
+		{1EE1BF11-45E8-44D1-815D-3FEBB21728B4} = {831DF4CD-8987-47D1-9C97-6DD3C2964051}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7A06F960-FBF2-40C1-B7F6-D89BF7BCD2A5}
