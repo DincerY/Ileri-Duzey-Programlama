@@ -14,15 +14,38 @@ class MyClass<T>
     private T field;
     public T Property { get; set; }
 
-    public T Method(Func<T,bool> predicate)
+    public T Method(Func<T, bool> predicate)
     {
         return field;
     }
 
-    public int X(out int b,int c,out string d)
+    public int X(out int b, int c, out string d)
     {
-        b = 0; 
+        b = 0;
         d = "mehmet";
         return c;
     }
+}
+
+
+
+class A
+{
+    public virtual void Run() 
+    {
+
+    }
+}
+
+class B : A
+{
+    public sealed override void Run()
+    {
+        base.Run();
+    }
+}
+
+class C : B
+{
+
 }

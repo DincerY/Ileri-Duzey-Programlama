@@ -27,7 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dynamic_Keywordd", "Program
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Generic Yapılar", "Generic Yapılar", "{0D28212F-2824-4076-8D98-1284FCB54D10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic Class", "Generic Yapılar\Generic Class\Generic Class.csproj", "{BED19C36-E2BE-4A79-B12A-C0F775A0CC21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generic Class", "Generic Yapılar\Generic Class\Generic Class.csproj", "{BED19C36-E2BE-4A79-B12A-C0F775A0CC21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CovarianceAndContravariance", "CovarianceAndContravariance", "{C5343D1E-A848-436C-A10D-750A9B370B28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Covariance_Contravariance", "CovarianceAndContravariance\Covariance_Contravariance\Covariance_Contravariance.csproj", "{A5EDF148-2493-41F1-B050-5FEB0200562A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +75,10 @@ Global
 		{BED19C36-E2BE-4A79-B12A-C0F775A0CC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BED19C36-E2BE-4A79-B12A-C0F775A0CC21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BED19C36-E2BE-4A79-B12A-C0F775A0CC21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5EDF148-2493-41F1-B050-5FEB0200562A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5EDF148-2493-41F1-B050-5FEB0200562A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5EDF148-2493-41F1-B050-5FEB0200562A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5EDF148-2493-41F1-B050-5FEB0200562A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,6 +93,7 @@ Global
 		{AF2AE387-DB3E-4050-BBDD-544BD2BC550E} = {831DF4CD-8987-47D1-9C97-6DD3C2964051}
 		{1EE1BF11-45E8-44D1-815D-3FEBB21728B4} = {831DF4CD-8987-47D1-9C97-6DD3C2964051}
 		{BED19C36-E2BE-4A79-B12A-C0F775A0CC21} = {0D28212F-2824-4076-8D98-1284FCB54D10}
+		{A5EDF148-2493-41F1-B050-5FEB0200562A} = {C5343D1E-A848-436C-A10D-750A9B370B28}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7A06F960-FBF2-40C1-B7F6-D89BF7BCD2A5}
